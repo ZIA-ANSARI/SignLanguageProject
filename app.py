@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # load model
-model = pickle.load(open('/home/machine/finalized_model_xgboost_a_c_h_y.sav','rb'))
+model = pickle.load(open('finalized_model_xgboost_a_c_h_y.sav','rb'))
 
 # app
 app = Flask(__name__)
